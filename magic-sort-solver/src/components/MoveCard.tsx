@@ -28,7 +28,7 @@ export function MoveCard({ index, move, stateAfter, palette, active, onSelect }:
         <span className="move-text">Farbe: {d.color}.</span>
         <span className="move-text">Anzahl der Kugeln: {d.count}.</span>
         <span className="move-mini" aria-hidden="true">
-          <PuzzleBoard puzzle={stateAfter} palette={palette} mini source={move.fro} target={move.to} />
+          <PuzzleBoard puzzle={stateAfter} palette={palette} mini source={move.from} target={move.to} />
         </span>
       </button>
     </li>
